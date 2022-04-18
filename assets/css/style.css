@@ -1,0 +1,37 @@
+:root{
+  font-size: 20px;
+}
+*{
+  box-sizing: border-box;
+}
+body{}
+.container{
+  border: 5px solid #bbbbbb;
+}
+.item{
+  width: 230px;
+  min-width: 200px;
+  max-width: 260px;
+  /* padding: 0.5em; */
+  /* margin: 1em; */
+  border: 5px solid #0ff;
+  background-color: pink;
+  font-size: 1.5em;
+  text-align: center;
+}
+.flex-parent{
+  min-height: 60vh;
+  max-height: 70vh;
+  display: flex;
+  /* flex-flow: row nowrap; */
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between;align-items: flex-start; */
+  /* align-content: space-between; */
+}
+.flex-child{
+  /* flex-grow: 0; */
+  /* flex-shrink: 1; */
+  /* flex-basis: 210px; */
+  flex: 0 1 210px;
+}
